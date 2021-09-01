@@ -7,7 +7,7 @@ import random
 app = Flask(__name__)
 app.secret_key = '12345'
 
-faqslist = ["data/Greetings.csv", "data/GSTFAQs.csv"]
+faqslist = ["data/Greetings.csv", "data/GSTFAQs2.csv"]
 faqmodel = FaqEngine(faqslist)
 
 def get_response(user_message):

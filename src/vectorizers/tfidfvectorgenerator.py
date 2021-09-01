@@ -1,5 +1,6 @@
 import os
 import pickle
+from typing import List
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 

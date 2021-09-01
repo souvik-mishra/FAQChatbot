@@ -1,4 +1,5 @@
 import os
+from typing import List
 
 import gensim
 import numpy as np
